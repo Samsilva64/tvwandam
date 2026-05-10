@@ -1,0 +1,19 @@
+# Monorepo — dependências e artefactos locais
+**/node_modules/
+**/.next/
+**/out/
+**/dist/
+**/.turbo/
+
+# Ambiente e segredos
+.env
+.env.*
+!.env.example
+
+# Uploads e dados locais
+backend/uploads/
+
+# Logs e SO
+*.log
+.DS_Store
+Thumbs.db
